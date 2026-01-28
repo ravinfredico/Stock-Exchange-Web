@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <h1>Quoted</h1>
+    <table align="center">
+                <tr>
+                    <th>Name</th>
+                    <th>Symbol</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>{{name}}</td>
+                    <td>{{symbol}}</td>
+                    <td>{{price}}</td>
+                </tr>
+        </table>
+{% endblock %}
+
+<div id="result" class="section" style="display: none"></div>
+
